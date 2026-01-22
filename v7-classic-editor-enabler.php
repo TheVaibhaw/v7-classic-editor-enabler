@@ -19,28 +19,47 @@
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
-    exit;
+	exit;
 }
 
 define( 'V7_CLASSIC_EDITOR_ENABLER_VERSION', '1.0.0' );
 
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedFunctionFound
+/**
+ * Activate the plugin.
+ *
+ * @since 1.0.0
+ */
 function activate_v7_classic_editor_enabler() {
-    require_once plugin_dir_path( __FILE__ ) . 'includes/class-v7-classic-editor-enabler-activator.php';
-    V7_Classic_Editor_Enabler_Activator::activate();
+	require_once plugin_dir_path( __FILE__ ) . 'includes/class-v7-classic-editor-enabler-activator.php';
+	V7_Classic_Editor_Enabler_Activator::activate();
 }
 
+/**
+ * Deactivate the plugin.
+ *
+ * @since 1.0.0
+ */
 function deactivate_v7_classic_editor_enabler() {
-    require_once plugin_dir_path( __FILE__ ) . 'includes/class-v7-classic-editor-enabler-activator.php';
-    V7_Classic_Editor_Enabler_Activator::deactivate();
+	require_once plugin_dir_path( __FILE__ ) . 'includes/class-v7-classic-editor-enabler-activator.php';
+	V7_Classic_Editor_Enabler_Activator::deactivate();
 }
+// phpcs:enable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedFunctionFound
 
 register_activation_hook( __FILE__, 'activate_v7_classic_editor_enabler' );
 register_deactivation_hook( __FILE__, 'deactivate_v7_classic_editor_enabler' );
 
 require plugin_dir_path( __FILE__ ) . 'includes/class-v7-classic-editor-enabler.php';
 
+// phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedFunctionFound
+/**
+ * Begin execution of the plugin.
+ *
+ * @since 1.0.0
+ */
 function run_v7_classic_editor_enabler() {
-    $plugin = new V7_Classic_Editor_Enabler();
-    $plugin->run();
+	$plugin = new V7_Classic_Editor_Enabler();
+	$plugin->run();
 }
 run_v7_classic_editor_enabler();
+// phpcs:enable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedFunctionFound
