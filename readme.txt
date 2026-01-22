@@ -3,17 +3,33 @@ Contributors: thevaibhaw
 Donate link: https://vaibhawkumarparashar.in/
 Tags: classic-editor, gutenberg, block-editor, editor, wysiwyg
 Requires at least: 5.0
-Tested up to: 6.4
+Tested up to: 6.7
 Stable tag: 1.0.0
 Requires PHP: 7.4
-License: GPLv2 or later
+License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-A professional WordPress plugin that disables the Gutenberg block editor and enables the Classic Editor for Posts and Pages with granular control.
+A lightweight, secure plugin that provides granular control to disable Gutenberg and enable Classic Editor per post type with automatic settings redirect.
 
 == Description ==
 
 The V7 Classic Editor Enabler plugin provides fine-grained control over the WordPress editor experience. Since WordPress 5.0, Gutenberg (Block Editor) became the default editor, but many users prefer the familiar Classic Editor interface. This plugin allows you to disable Gutenberg and enable the Classic Editor selectively for different post types.
+
+= Why Choose V7 Classic Editor Enabler? =
+
+Unlike the official Classic Editor plugin which applies to all post types, V7 Classic Editor Enabler gives you **granular control**:
+* Choose Classic Editor for Posts only, or Pages only, or both
+* Automatic redirect to settings page after activation for instant configuration
+* Per-post-type control - Perfect for mixed workflows
+* Clean, professional code built with WordPress security standards
+* Zero external dependencies - Lightweight and fast
+
+= Perfect For =
+
+* **Content Creators**: Use Classic Editor for blog posts while keeping Gutenberg for landing pages
+* **Developers**: Clients who prefer Classic Editor but want modern page building tools
+* **Hybrid Workflows**: Mix Classic and Gutenberg editors based on content type
+* **Performance**: Minimal overhead with clean, efficient code
 
 = Key Features =
 
@@ -30,9 +46,14 @@ The V7 Classic Editor Enabler plugin provides fine-grained control over the Word
 * **Pages**: Enable/disable Classic Editor for static pages
 * **Flexible Control**: Mix and match - use Classic for posts but Gutenberg for pages, or vice versa
 
-= Privacy Notice =
+= Privacy & GDPR Compliance =
 
-This plugin does not collect, store, or transmit any personal data. No cookies are set by this plugin, and no external services are called.
+V7 Classic Editor Enabler is fully GDPR compliant:
+* **No Data Collection**: This plugin does not collect, store, or transmit any personal data
+* **No Cookies**: No cookies are set by this plugin
+* **No External Services**: No external API calls or third-party services
+* **No Tracking**: No analytics or user tracking of any kind
+* **Local Storage Only**: All settings are stored locally in your WordPress database
 
 == Installation ==
 
@@ -98,12 +119,18 @@ Currently, the plugin supports Posts and Pages. Support for custom post types ma
 
 == Changelog ==
 
-= 1.0.0 =
-* Initial release
+= 1.0.0 - 2026-01-22 =
+* **Initial Release**
 * Selective Classic Editor enablement for Posts and Pages
-* Automatic redirect to settings on activation
-* Professional code structure with security best practices
-* Full WordPress coding standards compliance
+* Automatic redirect to settings page after activation
+* Per-post-type granular control
+* Professional OOP code structure with security best practices
+* Full WordPress coding standards compliance (WPCS)
+* Internationalization (i18n) ready with translation support
+* Multisite compatible
+* Proper uninstall cleanup
+* GDPR compliant - no data collection
+* Tested with WordPress 6.7 and PHP 7.4+
 
 == Upgrade Notice ==
 
