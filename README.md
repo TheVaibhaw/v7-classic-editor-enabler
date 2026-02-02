@@ -1,6 +1,6 @@
 # V7 Legacy Editor Enabler
 
-[![WordPress Plugin Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/thevaibhaw/v7-legacy-editor-enabler)
+[![WordPress Plugin Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/TheVaibhaw/v7-legacy-editor-enabler)
 [![WordPress](https://img.shields.io/badge/WordPress-5.0%2B-blue.svg)](https://wordpress.org/)
 [![PHP](https://img.shields.io/badge/PHP-7.4%2B-purple.svg)](https://www.php.net/)
 [![License](https://img.shields.io/badge/license-GPL--2.0--or--later-green.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
@@ -152,7 +152,7 @@ For support, bug reports, or feature requests:
 - **Author**: Vaibhaw Kumar
 - **Email**: imvaibhaw@gmail.com
 - **Website**: [vaibhawkumarparashar.in](https://vaibhawkumarparashar.in)
-- **GitHub**: [github.com/thevaibhaw/v7-legacy-editor-enabler](https://github.com/thevaibhaw/v7-legacy-editor-enabler)
+- **GitHub**: [github.com/TheVaibhaw/v7-legacy-editor-enabler](https://github.com/TheVaibhaw/v7-legacy-editor-enabler)
 
 ## 📜 License
 
@@ -186,7 +186,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
 ## 🌐 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request on [GitHub](https://github.com/thevaibhaw/v7-legacy-editor-enabler).
+Contributions are welcome! Please feel free to submit a Pull Request on [GitHub](https://github.com/TheVaibhaw/v7-legacy-editor-enabler).
 
 ---
 

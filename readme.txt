@@ -150,4 +150,4 @@ For support, bug reports, or feature requests:
 
 = Contributing =
 
-Contributions are welcome! Please feel free to submit a Pull Request on [GitHub](https://github.com/thevaibhaw/v7-legacy-editor-enabler).
+Contributions are welcome! Please feel free to submit a Pull Request on [GitHub](https://github.com/TheVaibhaw/v7-legacy-editor-enabler).

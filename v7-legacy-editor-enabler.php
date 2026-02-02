@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       V7 Legacy Editor Enabler
- * Plugin URI:        https://github.com/thevaibhaw/v7-legacy-editor-enabler
+ * Plugin URI:        https://github.com/TheVaibhaw/v7-legacy-editor-enabler
  * Description:       A lightweight plugin to disable Gutenberg block editor and enable the legacy TinyMCE editor for Posts and Pages with granular control.
  * Version:           1.0.0
  * Author:            Vaibhaw Kumar
